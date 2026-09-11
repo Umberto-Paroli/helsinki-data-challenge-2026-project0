@@ -41,10 +41,7 @@ python ./run_unknown_object.py
 To simplify the work and avoid running the search of hyperparameters we include our configuration files for each unknown objects in [configs_unknown directory](./configs_unknown/).
 
 ## Project summary
-This project performs a **convex reconstruction** where an initial mash (an ellipsoid as default) is adapted to the lightcurves of an object unknown object trought a forward operator that emulates challenge experimental setup.
-
-
-[INSERT HERE SOME LINES ABOUT THE MODEL]
+This project performs a **convex reconstruction** where an initial mash (an ellipsoid as default) is adapted to the lightcurves of an unknown object trought a forward operator that emulates the challenge experimental setup.
 
 For more details on model architectures and training process see [train_convex.py](./train_convex.py). and [train.py](./train.py) \
 **Note:** The code use pytorch with device set to "cuda:0" and it may cause a crash. Change to "cuda:1" to allow the usage of GPU, if available.
