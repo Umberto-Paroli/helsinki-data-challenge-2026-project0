@@ -43,4 +43,4 @@ To simplify the work and avoid running the search of hyperparameters we include 
 ## Project summary
 This project performs a **convex reconstruction** where an initial mash (an ellipsoid as default) is adapted to the lightcurves of an unknown object trought a forward operator that emulates the challenge experimental setup.
 
-For more details on model architectures and training process see [train_convex.py](./train_convex.py). and [train.py](./train.py) \
+For more details on model architectures and training process see [train_convex.py](./train_convex.py).\
